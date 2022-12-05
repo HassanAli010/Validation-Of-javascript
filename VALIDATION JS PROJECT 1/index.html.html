@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JAVASCRIPT VALIDATION 1</title>
+</head>
+<body>
+	<form>
+		<input type="text" id="username" placeholder="username" value="">
+		<input type="password" id="userpassword" placeholder="password" value="">
+		<button onclick="checkingvalue()">check</button>
+		</form>
+
+
+		<script>
+			function checkingvalue(){
+				var user = document.getElementById("username").value;
+				var pass = document.getElementById("userpassword").value;
+			alert("the username is" + user);
+			alert("the userpassword is" + pass);
+					
+			}
+
+		</script>
+</body>
+</html>
